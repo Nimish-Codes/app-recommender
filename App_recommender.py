@@ -5,7 +5,8 @@ import pandas as pd
 csv_data = ('App_list.csv')
 
 # Create DataFrame from CSV data
-df = pd.read_csv(pd.compat.StringIO(csv_data))
+# df = pd.read_csv(pd.compat.StringIO(csv_data))
+df = pd.read_csv(csv_data)
 
 def get_related_apps(selected_apps, data):
     selected_categories = data[data['App Name'].isin(selected_apps)]['Category'].tolist()
