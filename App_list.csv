@@ -1,4 +1,11 @@
 App Name,Category
+Microsoft Authenticator,Authentication
+LastPass Authenticator,Authentication
+Duo Mobile,Authentication
+1Password,Password Manager / Authentication
+YubiKey Authenticator,Hardware Token / Authentication
+FreeOTP,Authentication
+Authenticator Plus,Authentication
 WhatsApp,Communication
 Instagram,Social Media
 Facebook,Social Media
@@ -238,8 +245,8 @@ Send Anywhere,File Sharing
 Files by Google,File Manager
 Solid Explorer File Manager,File Manager
 Microsoft Files,File Manager
-Authy,Two-Factor Authentication
-Google Authenticator,Two-Factor Authentication
+Authy,Authentication
+Google Authentication,Two-Factor Authentication
 LastPass,Password Manager
 Dashlane,Password Manager
 1Password,Password Manager
